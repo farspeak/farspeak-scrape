@@ -1,0 +1,6 @@
+instructions: "This is a product website"
+template:
+  name: "Title of the product"
+  description: "Description of the product"
+  technology: "Technology this product uses"
+  user: "Who uses this product"

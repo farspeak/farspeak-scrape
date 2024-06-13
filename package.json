@@ -13,6 +13,8 @@
     "dependencies": {
         "puppeteer": "^1.0.0",
         "farspeak": "^1.0.0",
-        "pdf-lib": "^1.0.0"
+        "pdf-lib": "^1.0.0",
+        "yamljs": "^0.3.0",
+        "commander": "^12.1.0"
     }
 }
