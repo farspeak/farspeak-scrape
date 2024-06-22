@@ -69,7 +69,7 @@ async function scrapeAndConvertToPDF(url, outputPath) {
     await browser.close();
 
     // Write the PDF buffer to a file
-    await fsPromises.writeFile(outputPath, pdfBuffer);
+    await fs.writeFile(outputPath, pdfBuffer);
     console.log(`PDF saved to ${outputPath}`);
   } catch (error) {
     console.error(`Error: ${error.message}`);
